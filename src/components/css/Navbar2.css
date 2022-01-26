@@ -1,0 +1,71 @@
+.bg{
+  background-color: #F3F3F3;
+  --theme-deafult: #ef6c00;
+  font-family: Roboto,Helvetica Neue,sans-serif;
+  user-select: none;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  white-space: nowrap;
+  text-align: center;
+  text-transform: uppercase;
+  color: #383838;
+  font-weight: 700;
+  line-height: 63px;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  height: 65px;
+}
+
+ #basic-nav-dropdown {
+   
+  --theme-deafult: #ef6c00;
+  pointer-events: auto;
+  margin: 0;
+  font-family: Roboto,Helvetica Neue,sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  background: transparent;
+  color: rgba(0,0,0,.87);
+  user-select: none;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  -webkit-tap-highlight-color: transparent;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  line-height: 48px;
+  height: 48px;
+  padding: 0 16px;
+  text-align: left;
+  text-decoration: none;
+  max-width: 100%;
+  position: relative;
+  border-bottom: 1px dashed #f6f6f6;
+  margin: 15px;
+
+}
+.nav-item{
+  font-size: 20px;
+  font-family: Roboto,Helvetica Neue,sans-serif;
+  color: #616161;
+  font-weight: normal;
+}
+.hr{
+  margin-bottom: 5px;
+  margin-top: 25px;
+}
+.under-nav{
+  padding-left: 90px;
+  --theme-deafult: #ef6c00;
+  font-family: Roboto,Arial,Helvetica,sans-serif;
+  color: #333;
+  margin-top: 30px;
+  
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 17px ;
+}

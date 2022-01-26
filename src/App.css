@@ -1,0 +1,38 @@
+#menu{
+  
+}
+.cont{
+    display: grid;
+    grid-template-areas: 
+           
+
+    "h h h    h h h h"
+    "n n n    n n n n"
+    "s s s    c c c c"
+    "s s s    c c c c"
+    "s s s    c c c c"
+    "f f f    f f f f" 
+    ;
+     grid-gap: 0px; 
+ 
+}
+
+.head{
+    grid-area: h;
+}
+
+.footer{
+    grid-area: f;
+}
+.nav1{
+    grid-area: n;  
+}
+.side{
+    grid-area: s;  
+}
+.sidebar{
+    background: white;
+    color: sandybrown;
+    text-align: center;
+    width: 400px;
+}

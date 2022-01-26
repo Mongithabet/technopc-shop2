@@ -1,0 +1,104 @@
+[{
+  "_id": {
+    "$oid": "61db0d9da1ed0d0c0ff70c72"
+  },
+  "name": "Headset Perro",
+  "price": 156.88683089569787,
+  "image": "./img/headphone.png",
+  "category": {
+    "_id": "C1",
+    "name": "Headphones",
+    "products": []
+  },
+  "_class": "com.technopc.Entities.Product"
+},{
+  "_id": {
+    "$oid": "61db0d9da1ed0d0c0ff70c73"
+  },
+  "name": "Solo Headset",
+  "price": 817.6255177954821,
+  "image": "./img/headphone1.png",
+  "category": {
+    "_id": "C1",
+    "name": "Headphones",
+    "products": [
+      {
+        "$oid": "61db0d9da1ed0d0c0ff70c72"
+      }
+    ]
+  },
+  "_class": "com.technopc.Entities.Product"
+},{
+  "_id": {
+    "$oid": "61db0d9da1ed0d0c0ff70c74"
+  },
+  "name": "Ellite Pro Book 15'6 7500U",
+  "price": 272.31231625646654,
+  "image": "./img/laptop.png",
+  "category": {
+    "_id": "C2",
+    "name": "Laptops",
+    "products": [
+      {
+        "$oid": "61db0d9da1ed0d0c0ff70c72"
+      },
+      {
+        "$oid": "61db0d9da1ed0d0c0ff70c73"
+      }
+    ]
+  },
+  "_class": "com.technopc.Entities.Product"
+},{
+  "_id": {
+    "$oid": "61db0d9da1ed0d0c0ff70c75"
+  },
+  "name": "Tablet Red 8500U 2TB",
+  "price": 980.4518739024128,
+  "image": "./img/laptop1.png",
+  "category": {
+    "_id": "C2",
+    "name": "Laptops",
+    "products": [
+      {
+        "$oid": "61db0d9da1ed0d0c0ff70c72"
+      },
+      {
+        "$oid": "61db0d9da1ed0d0c0ff70c73"
+      },
+      {
+        "$oid": "61db0d9da1ed0d0c0ff70c74"
+      }
+    ]
+  },
+  "_class": "com.technopc.Entities.Product"
+},{
+  "_id": {
+    "$oid": "61db0d9da1ed0d0c0ff70c76"
+  },
+  "name": "Laptop XS3000 WiFi",
+  "price": 752.5822141089947,
+  "image": "./img/laptop2.png",
+  "category": {
+    "_id": "C2",
+    "name": "Laptops",
+    "products": []
+  },
+  "_class": "com.technopc.Entities.Product"
+},{
+  "_id": {
+    "$oid": "61db0d9da1ed0d0c0ff70c77"
+  },
+  "name": "Ultra Whitte Wireless",
+  "price": 479.28881497652833,
+  "image": "./img/headphone3.png",
+  "category": {
+    "_id": "C1",
+    "name": "Headphones",
+    "products": [
+      {
+        "$oid": "61db0d9da1ed0d0c0ff70c76"
+      }
+    ]
+  },
+  "_class": "com.technopc.Entities.Product"
+}]

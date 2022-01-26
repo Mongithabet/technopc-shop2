@@ -1,0 +1,92 @@
+.body{
+ position: relative;
+border: none;
+text-align: left;
+}
+
+.form__group {
+    position: relative;
+    padding: 15px 0 0;
+    margin-top: 10px;
+    width: 18%;
+    padding-left: 50px;
+    
+}
+.form__field {
+    
+    font-family: inherit;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid gray;
+    outline: 0;
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.76);
+    padding: 4px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+    
+}
+.form__field::placeholder {
+    color: transparent;
+}
+.form__field:placeholder-shown ~ .form__label {
+    font-size: 1rem;
+    cursor: text;
+    top: 20px;
+}
+.form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 0.7rem;
+    color: gray;
+}
+.form__field:focus {
+    padding-bottom: 6px;
+    font-weight: 200;
+    border-width: 3px;
+    border-image: linear-gradient(to right,#da4805e0,#e08b1d);
+    border-image-slice: 1;
+}
+.form__field:focus ~ .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: #EF6C00;
+font-size: small;
+}
+.form__field:required, .form__field:invalid {
+    box-shadow: none;
+}
+.bicon{
+    --theme-deafult: #ef6c00;
+    color: #777!important;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-transform: none;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    background-repeat: no-repeat;
+    fill: currentColor;
+    height: 24px;
+    font-size: 150%;
+    line-height: 1.125;
+    width: 1em;
+    border: none;
+
+}
+.box{
+    position: relative;
+    transform: translate(16%,-195%);
+   margin-top: 15px;
+   margin-bottom: 20px;
+}
